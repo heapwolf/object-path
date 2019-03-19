@@ -1,0 +1,15 @@
+{
+  "name": "object-path",
+  "version": "1.0.0",
+  "description": "get and set values on an object using dot-paths",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "node test"
+  },
+  "author": "heapwolf",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
