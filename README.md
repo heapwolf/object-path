@@ -1,6 +1,8 @@
 # SYNOPSIS
 Subset implementation of object-path, `get` and `set` methods.
 
+# INSTALL
+
 ```bash
 npm install heapwolf/object-path
 ```
