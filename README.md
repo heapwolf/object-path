@@ -27,9 +27,9 @@ get(o, 'a.b.c') // => ['foo', 'bar', 'bazz']
 ```
 
 ```js
-set(o, 'a.b.c.0', { x: true })
+set(o, 'a.b.c.0', { x: true }) // => [{ x: true }, 'bar', 'bazz']
 ```
 
 ```js
-set({}, 'a.b.c.0', { x: true })
+set({}, 'a.y.2.z', 100) // => { a: { y: [null, null, { z: 100 }] } }
 ```
